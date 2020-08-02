@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab5MattWareNETD2202
+</name>
+</assembly>
+<members>
+<member name="T:Lab5MattWareNETD2202.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab5MattWareNETD2202.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab5MattWareNETD2202.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuNewClick">
+ <summary>
+ When the new button is clicked this clears the main text window while saving a copy of the new file which is empty to start
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuOpenClick">
+ <summary>
+ When the open button is pressed this puts the file chosen into the main text window
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuSaveClick">
+ <summary>
+ When the save button is pressed the document is written to the file chosen by the Save File Dialogue box if the file has not been saved
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuSaveAsClick">
+ <summary>
+ Similar to the save button, this button saves the file but asks for a file name every time
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuCopyClick">
+ <summary>
+ Copies the selected text from the main text window to the clipboard
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuCutClick">
+ <summary>
+ Cuts the selected text from the main text window and copy it to the clipboard
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuPasteClick">
+ <summary>
+ Pastes text from the clipboard into the main text window
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.mnuAboutClick">
+ <summary>
+ Displays a message box with information about the program
+ </summary>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.writeFile(System.String)">
+ <summary>
+ Writes a file to the specified file name as a parameter
+ </summary>
+ <param name="fileName"></param>
+</member>
+<member name="M:Lab5MattWareNETD2202.frmTextEditor.confirmClose">
+ <summary>
+ Confirm Close function responsible for bonus parts one and two
+ Compares the current screen text to the original file
+ If the files are not identical then confirm the close operation
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>
